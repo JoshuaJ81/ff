@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Fashion | Homepage</title>
+    <link rel="icon" type="image/x-icon" href="./images/IMG_4273.PNG">
+
+        <!--- CSS --->
+
+        <link rel="stylesheet" href="./resources/index.css">
+
+                <!--- Font --->
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Square+Peg&display=swap" rel="stylesheet">
+
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+          <!-- Navigation -->
+
+    <div class="nav-container">
+        <nav role="navigation" aria-label="navigation" class="site-header-nav">
+                <div class="logo">
+                    <br>
+                    <a href="#"><img class="logo" src="./images/ffwordmarkwht.png"/></a>
+                    
+                    <div class="center-mobile-menu">
+                        <button onclick="toggleMenu()" class="mobile-button">MENU</button>
+                        <div class="drop-down">
+                               
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#blog">BLOG</a></li>
+                                <li><a href="#press-media">PRESS & MEDIA</a></li>
+                                <li><a href="#client-montage">PORTFOLIO</a></li>
+                                <li><a href="#sign-up">CONTACT</a></li>
+                        </div>
+                    </div>
+                        
+                        <ul class="header-nav">
+                             
+                             <li><a href="#about">ABOUT</a></li>
+                             <li><a href="#blog">BLOG</a></li>
+                             <li><a href="#press-media">PRESS & MEDIA</a></li>
+                             <li><a href="#client-montage">PORTFOLIO</a></li>
+                             <li><a href="#sign-up">CONTACT</a></li>
+                             
+                             <div class="social-media-search">
+                             <a href="#"><img class="social-media-icon1" src="./images/facebookheader.png"/></a>
+                             <a href="#"><img class="social-media-icon1" src="./images/twitterheader.png"/></a>
+                             <a href="#"><img class="social-media-icon1" src="./images/instagramiconheader.png"/></a>
+                             <a href="#"><img class="social-media-icon1" src="./images/linkedinheader.png"/></a>
+                             <a href="#"><img class="glass" src="./images/magnifying glass.png"/></a>
+                             </div>
+                        </ul>
+
+                </div>
+
+                        
+                        
+                    
+        </nav>	
+    </div>
+
+<!--- Hero Header --->
+
+<header id="hero">
+    <div class="hero-container">
+        <div class="introduction">
+            <h1>Welcome to Fancy Fashion!</h1>
+            <h2>We're here to help you achieve the best look for who you are.</h2>
+            <h2>To get started, click the button below to find your stylist!</h2>
+            <div class="button">
+                <li><a href="">CLICK HERE</a></li> 
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<!-- Stylists Section -->
+
+<section id="about">
+    
+    <div class="container">
+        <div class="split">
+            <div>
+                <img src="./images/womanscloset2.jpg" alt="clients closet">
+            </div>
+           
+            <div>
+                <h2>Having trouble deciding what to wear?</h2>
+                <p>Leave the tough decisions to us.</p>
+                <p>Our stylists have a combined 60 years of experience!</p>
+                <p>Click below to learn how we can help!</p>
+                <div class="button">
+                    <li><a href="">CLICK HERE</a></li> 
+                </div>
+            </div>
+            
+            <div>
+            <img src="./images/welldressed.jpg" alt="one of our well dressed clients">
+            </div>
+                
+        </div>
+    </div>
+    
+</section>
+
+
+    <!-- BLOG SECTION -->
+
+    <div id="blog">
+        <div class="grid-container">
+            <div>
+                <img src="./images/richebony.jpg" alt="blog fashion tips">
+            </div>
+                <div>
+                    <h1>Check out our blog</h1>
+                    <h3>We offer free fashion tips to keep you in style!</h3>
+                    <h3>Read the latest from our experts.</h3>
+                    
+                    <div class="button">
+                        <li><a href="">CLICK HERE</a></li> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<section id="press-media">
+    <div class="container">
+        <div class="split">
+        <div>
+            <h2>Fashion Week NYC 2022</h2>
+            <P>Fancy Fashion was honored to serve at Fashion Week 2022!</P>
+            <p>Our Fashion Consultants brought style to the Big Apple!</p>
+            <p>Click below to view photos, and read what Vanity Fair wrote about our input.</p>
+                <div class="button">
+                <li><a href="">CLICK HERE</a></li> 
+                </div>
+        </div>
+                <div>
+                <img src="./images/fashion week.jpg" alt="Fashion Week New York City 2022">
+                </div>
+            
+        </div>        
+    </div>        
+</section>
+
+
+<section id="client-montage">
+    <div id="client-montage-container">
+        
+        <h1> - Get The Look That <span>You</span> Deserve - </h1>
+        <h2>(Check out our portfolio, and hover over your favorite style!)</h2>
+    </div>
+        
+            <div class="client-images" id="client-resize"> 
+                <img class="adjust" src="./images/losangeleswoman.jpg" alt="clients closet" id="changeh1" onmouseover="oldLa()" onmouseout="newLa()">
+                <img class="adjust" src="./images/ff2.jpg" alt="one of our well dressed clients" id="changeher1" onmouseover="oldChick()" onmouseout="newChick()">
+                <img class="adjust" src="./images/makeupon.jpg" alt="one of our well dressed clients" id="changeher" onmouseover="oldGirl()" onmouseout="newGirl()">
+                <img class="adjust" src="./images/welldressed3.jpg" alt="one of our well dressed clients" id="changeher2" onmouseover="oldPhot()" onmouseout="newPhot()">
+                
+                <img class="adjust" src="./images/guilherme-caetano-StEv2KQbNl0-unsplash.jpg" alt="one of our well dressed clients" id="model1" onmouseover="modelOne()" onmouseout="modelOneFlip()">
+                <img class="adjust" src="./images/anniespratt1.jpg" alt="one of our well dressed clients" id="model3" onmouseover="modelThree()" onmouseout="modelThreeFlip()">
+                <img class="adjust" src="./images/jernej-graj-ES5jnyvFg20-unsplash.jpg" alt="one of our well dressed clients" id="model2" onmouseover="modelTwo()" onmouseout="modelTwoFlip()">
+                <img class="adjust" src="./images/rikonavt-HQjfrvdTfak-unsplash.jpg" alt="one of our well dressed clients" id="model4" onmouseover="modelFour()" onmouseout="modelFourFlip()">
+            </div>
+                
+        
+    
+</section>
+
+
+<section id="sign-up">
+   
+   <div class="sign-up-container">
+       <div class="subscribe">
+            <h3>Ready for a new look?</h3>
+        
+                <form id="form" class="clearfix">
+               
+                <h2>Hit the subcribe button below to receive our free monthly news letter!</h2>
+                <br>
+
+                <label>Your Name</label>	
+                <input type="text" placeholder="Full Name"/>
+        
+                <label>Your Email</label>	
+                <input type="email" placeholder="Email Address"/>
+                
+                <div class="button">
+                <li><a href="">SIGN UP</a></li> 
+                </div>
+                </form>
+    
+        </div>    
+    </div>
+</section>
+
+
+<section id="footer">
+    <footer>
+        <p>© Copyright 2022. Fancy Fashion. All Rights Reserved</p>
+        <div class="social-media" id="smicon">
+            <a href="#"><img class="social-media-icon1" src="./images/facebook.png"/></a>
+            <a href="#"><img class="social-media-icon" src="./images/twitter.png"/></a>
+            <a href="#"><img class="social-media-icon" src="./images/instagramicon.png"/></a>
+            <a href="#"><img class="social-media-icon" src="./images/linkedin.png"/></a>
+        </div>
+    </footer>
+</section>
+
+<script src="./fancyfashion.js"></script>
+
+</body>
+</html>
